@@ -7,8 +7,8 @@ import {
   TextField,
 } from "@mui/material";
 import { FC, useEffect, useState } from "react";
-import { createUser, updateUser } from "../../../Services/User/userService";
-import { UserModel } from "../../../Model/UserModel";
+import { createUser, updateUser } from "../../../services/User/userService";
+import { UserModel } from "../../../models/UserModel";
 import Select from "@mui/material/Select";
 
 interface ModalProps {

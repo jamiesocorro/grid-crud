@@ -3,8 +3,8 @@ import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { Box } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { EditToolbar } from "./Header/Header";
-import { viewUsers } from "../../Services/User/userService";
-import { UserModel } from "../../Model/UserModel";
+import { viewUsers } from "../../services/User/userService";
+import { UserModel } from "../../models/UserModel";
 import moment from "moment";
 
 const StyledDataGrid = styled(DataGrid)(({ theme }) => ({

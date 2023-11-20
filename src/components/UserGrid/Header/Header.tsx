@@ -7,8 +7,8 @@ import EditNoteIcon from "@mui/icons-material/EditNote";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 import { UserModal } from "../../shared/UserModal/UserModal";
-import { UserModel } from "../../../Model/UserModel";
-import { deleteUser } from "../../../Services/User/userService";
+import { UserModel } from "../../../models/UserModel";
+import { deleteUser } from "../../../services/User/userService";
 import Divider from "@mui/material/Divider";
 import { SearchComponent } from "./Search/Search";
 

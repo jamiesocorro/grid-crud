@@ -1,4 +1,4 @@
-import { UserModel } from "../../Model/UserModel";
+import { UserModel } from "../../models/UserModel";
 
 export const viewUsers = () => {
   return JSON.parse(localStorage.getItem("users") || "{}");
