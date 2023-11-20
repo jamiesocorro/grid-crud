@@ -16,9 +16,9 @@ You will also see any lint errors in the console.
 
 ## install yarn setup
 
-yarn add moment
-yarn add @mui/material @emotion/react @emotion/styled
-yarn add @mui/icons-material
+yarn add moment \
+yarn add @mui/material @emotion/react @emotion/styled \
+yarn add @mui/icons-material \
 yarn add @mui/x-data-grid-generator
 
 ## Learn More
