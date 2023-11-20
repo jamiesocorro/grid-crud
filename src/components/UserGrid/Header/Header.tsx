@@ -8,7 +8,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 import { UserModal } from "../../shared/UserModal/UserModal";
 import { UserModel } from "../../../models/UserModel";
-import { deleteUser } from "../../../service/User/userService";
+import { deleteUser } from "../../../services/User/userService";
 import Divider from "@mui/material/Divider";
 import { SearchComponent } from "./Search/Search";
 
