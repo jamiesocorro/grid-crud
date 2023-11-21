@@ -18,6 +18,7 @@ interface EditToolbarProps {
   selectedUsers: UserModel[];
   setSelectedUsers: any;
   originalUsers: UserModel[];
+  setOriginalUsers: any;
 }
 
 export const EditToolbar: FC<EditToolbarProps> = ({
@@ -26,6 +27,7 @@ export const EditToolbar: FC<EditToolbarProps> = ({
   selectedUsers,
   setSelectedUsers,
   originalUsers,
+  setOriginalUsers,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchUserId, setSearchUserId] = useState<string>("");
@@ -165,6 +167,7 @@ export const EditToolbar: FC<EditToolbarProps> = ({
         users={users}
         setUsers={setUsers}
         selectedUser={selectedUser}
+        setOriginalUsers={setOriginalUsers}
       ></UserModal>
     </GridToolbarContainer>
   );

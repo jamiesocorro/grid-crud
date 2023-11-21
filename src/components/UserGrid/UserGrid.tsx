@@ -99,6 +99,7 @@ export const UserGrid = () => {
                 selectedUsers,
                 setSelectedUsers,
                 originalUsers,
+                setOriginalUsers,
               },
             }}
             onRowSelectionModelChange={(ids) => {

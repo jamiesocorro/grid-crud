@@ -17,6 +17,7 @@ interface ModalProps {
   users: UserModel[];
   setUsers: any;
   selectedUser?: UserModel;
+  setOriginalUsers: any;
 }
 
 export const UserModal: FC<ModalProps> = ({
@@ -25,6 +26,7 @@ export const UserModal: FC<ModalProps> = ({
   users,
   setUsers,
   selectedUser,
+  setOriginalUsers,
 }) => {
   const [error, setError] = useState(false);
 
@@ -61,6 +63,7 @@ export const UserModal: FC<ModalProps> = ({
 
     createUser(newRows);
     setUsers(newRows);
+    setOriginalUsers(newRows);
     onHandleClose();
   };
 
@@ -97,6 +100,7 @@ export const UserModal: FC<ModalProps> = ({
 
     updateUser(newRows);
     setUsers(newRows);
+    setOriginalUsers(newRows);
     onHandleClose();
   };
 
