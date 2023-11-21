@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/grid-crud-react/static/css/main.f855e6bc.css",
+    "main.js": "/grid-crud-react/static/js/main.f40c239d.js",
+    "static/js/787.82ad27d5.chunk.js": "/grid-crud-react/static/js/787.82ad27d5.chunk.js",
+    "index.html": "/grid-crud-react/index.html",
+    "main.f855e6bc.css.map": "/grid-crud-react/static/css/main.f855e6bc.css.map",
+    "main.f40c239d.js.map": "/grid-crud-react/static/js/main.f40c239d.js.map",
+    "787.82ad27d5.chunk.js.map": "/grid-crud-react/static/js/787.82ad27d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f40c239d.js"
+  ]
+}
